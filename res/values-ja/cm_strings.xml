@@ -620,4 +620,41 @@
     <string name="privacy_guard_help_text">この画面でアプリをタップするだけでプライバシー保護を有効にしたいアプリを選択できます。選択されたアプリは、連絡先、メッセージや通話履歴などの個人情報にアクセスすることができなくなります。エントリを長押しするとそのアプリの詳細画面が開きます。\n\nデフォルトではシステムアプリは表示されません。システムアプリを表示したり、個人情報へアクセスする権限を持つアプリのみを表示するようにフィルタしたい場合、メニューの各オプションを選択してください。</string>
     <string name="privacy_guard_manager_show_system_apps">システムアプリを表示</string>
     <string name="privacy_guard_manager_filter_permissions">権限でフィルタ</string>
+    <string name="blacklist_title">ブラックリスト</string>
+    <string name="blacklist_edit_dialog_title">ブラックリスト項目を編集</string>
+    <string name="blacklist_prefs">設定</string>
+    <string name="blacklist_button_delete">削除</string>
+    <string name="blacklist_empty_text">ブラックリストはまだありません。追加(+)ボタンを押してエントリを追加してください。</string>
+    <string name="blacklist_disabled_empty_text">特定の番号からの着信やメッセージを拒否するにはブラックリストを有効にしてください。</string>
+    <string name="blacklist_summary_disabled">無効</string>
+    <string name="blacklist_summary">ブラックリストにある電話番号からの着信やメッセージ受信は拒否されます</string>
+    <string name="blacklist_notify">通知を表示</string>
+    <string name="blacklist_private_numbers_title">番号非通知</string>
+    <string name="blacklist_private_numbers_summary_disabled">番号非通知着信を拒否しない</string>
+    <string name="blacklist_private_numbers_summary">番号非通知の<xliff:g id="type">%s</xliff:g>を拒否する</string>
+    <string name="blacklist_unknown_numbers_title">知らない番号</string>
+    <string name="blacklist_unknown_numbers_summary_disabled">連絡先にない番号からの着信やメッセージを拒否しない</string>
+    <string name="blacklist_unknown_numbers_summary">連絡先にない番号からの<xliff:g id="type">%s</xliff:g>を拒否する</string>
+    <string name="blacklist_summary_type_calls_only">着信</string>
+    <string name="blacklist_summary_type_messages_only">メッセージ</string>
+    <string name="blacklist_summary_type_calls_and_messages">着信とメッセージ</string>
+    <string name="blacklist_regex_title">ワイルドカードを使用</string>
+    <string name="blacklist_regex_summary">. はワイルドカード、* は繰り返し表現になります。 例: 123.* は123で始まる番号を拒否し、.*123.*は123を含む番号を拒否します。</string>
+    <string name="blacklist_policy_block_calls">電話の着信を拒否</string>
+    <string name="blacklist_policy_block_messages">メッセージの受信を拒否</string>
+    <string name="add_blacklist_number">番号を追加</string>
+    <string name="remove_blacklist_number_title">番号を削除</string>
+    <string name="remove_blacklist_entry">このブラックリストを削除しますか?</string>
+    <string name="select_contact">連絡先を追加</string>
+    <string name="vibrator_intensity_title">バイブレーターの強さ</string>
+    <string name="vibrator_warning">%1$d より大きな値は推奨されません</string>
+    <string name="color_calibration_title">色味の調整</string>
+    <string name="color_calibration_summary">画面上の色を調整する</string>
+    <string name="color_red_title">赤</string>
+    <string name="color_green_title">緑</string>
+    <string name="color_blue_title">青</string>
+    <string name="more_device_controls_title">もっと\u2026</string>
+    <string name="more_device_settings_title">その他のデバイスオプション</string>
+    <string name="sensors_motors_title">センサーとモーター</string>
+    <string name="display_calibration_title">画面調整</string>
 </resources>
