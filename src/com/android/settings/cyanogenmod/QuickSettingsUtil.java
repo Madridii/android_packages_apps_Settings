@@ -171,7 +171,7 @@ public class QuickSettingsUtil {
 
     private static boolean sUnsupportedRemoved = false;
 
-    private static synchronized void removeUnsupportedTiles(Context context) {
+    protected static synchronized void removeUnsupportedTiles(Context context) {
         if (sUnsupportedRemoved) {
             return;
         }
