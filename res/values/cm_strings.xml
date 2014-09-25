@@ -64,10 +64,6 @@
     <!-- Title for the accessibility preference to home button to answers a call. [CHAR LIMIT=35] -->
     <string name="accessibility_home_button_answers_call_prerefence_title">Home button answers call</string>
 
-    <!-- Category title for headset specific Settings.
-         [CHAR LIMIT=40] -->
-    <string name="headset_category_title">Headset</string>
-
     <string name="ok">OK</string>
 
     <!-- Quiet hours -->
@@ -969,12 +965,6 @@ two in order to insert additional control points. \'Remove\' deletes the selecte
     <string name="gamma_tuning_control_set_header">Group <xliff:g id="index">%d</xliff:g></string> <!-- used if no name provided by overlay -->
     <string name="gamma_tuning_contrast">Contrast</string>
     <string name="gamma_tuning_brightness">Brightness</string>
-
-    <!--  Other device settings -->
-    <string name="more_device_controls_title">More\u2026</string>
-    <string name="more_device_settings_title">Other device options</string>
-    <string name="sensors_motors_title">Sensors &amp; motors</string>
-    <string name="display_calibration_title">Display calibration</string>
 
     <!-- Quick access ribbon -->
     <string name="category_quick_access">Quick Access ribbon</string>

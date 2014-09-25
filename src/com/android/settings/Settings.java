@@ -515,10 +515,6 @@ public class Settings extends PreferenceActivity
                 if (hasLed) {
                     header.titleRes = R.string.display_lights_settings_title;
                 }
-            } else if (id == R.id.more_device_settings) {
-                if (!MoreDeviceSettings.hasItems()) {
-                    target.remove(header);
-                }
             }
 
             if (target.get(i) == header
